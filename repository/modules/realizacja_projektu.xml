@@ -1,19 +1,15 @@
 <part xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Realizacja projektu</title>
+  <title>Założenia projektu</title>
   <para>
-    Wprowadzenie ...
-  </para>
+        W ramach projektu należało wykonać zegary silnika (Oil Pressure Indicator, Nozzle
+        Position Indicator, RPM Indicator, Fan turbine Inlet Temperature Indicator), kompas oraz
+        Fuel Quantity Indicator.
+   </para>
   <chapter>
     <title>Rozdział 1 Opis projektu</title>
 
     <section>
       <title>1. Opis wskaźników</title>
-
-      <para>
-        W ramach projektu należało wykonać zegary silnika (Oil Pressure Indicator, Nozzle
-        Position Indicator, RPM Indicator, Fan turbine Inlet Temperature Indicator), kompas oraz
-        Fuel Quantity Indicator.
-      </para>
 
       <section>
         <title>1.1 Oil Pressure Indicator</title>
@@ -169,7 +165,7 @@
         <title>2.3 FQI</title>
 
         <para>
-          Projekt przedniej części obudowy zostały przekazane przez prowadzącego.
+          Projekty przedniej części obudowy zostały przekazane przez prowadzącego.
         </para>
 
         <figure>
@@ -184,17 +180,17 @@
     </section>
   </chapter>
   <chapter>
-    <title>Rozdział 2</title>
+    <title>3. Plan </title>
 
     <section>
-      <title>Sekcja 2</title>
+      <title>3.1 Co jest do wykonania</title>
 
       <para>
         tekst
       </para>
 
       <section>
-        <title>Sekcja 2.1</title>
+        <title>3.2 Co jest potrzebne do wykonania</title>
 
         <para>
           tekst
@@ -202,7 +198,7 @@
       </section>
 
       <section>
-        <title>Sekcja 2.2</title>
+        <title>3.3 Przykłady wykonania z internetu</title>
 
         <para>
           tekst
