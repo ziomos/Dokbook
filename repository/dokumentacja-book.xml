@@ -18,22 +18,8 @@
       <corpauthor>41K8</corpauthor>
       <corpauthor>2016/2017</corpauthor>
     </authorgroup>
-
- <!--
-          <para>Praca dostępna na <ulink
-      url="http://creativecommons.org/licenses/by/3.0/pl/">licencji
-      Creative Commons 3.0 Poland (Uznanie autorstwa)</ulink>.</para>
-    <para>
-      <ulink
-      url="http://creativecommons.org/licenses/by/3.0/pl/">
-        <inlinegraphic
-      fileref="http://creativecommons.org/images/public/somerights20.pl.png" />
-      </ulink>
-    </para>
-    </legalnotice> -->
   </bookinfo>
-
+  
+  <xi:include href="modules/zalozenia_projektu.xml" parse="xml" encoding="utf-8" />
   <xi:include href="modules/realizacja_projektu.xml" parse="xml" encoding="utf-8" />
-
-  <xi:include href="modules/uzycie_znacznikow.xml" parse="xml" encoding="utf-8" />
 </book>
