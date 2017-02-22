@@ -1,0 +1,672 @@
+<part xmlns:xi="http://www.w3.org/2001/XInclude">
+
+      <title>Przykłady użycia znaczników DocBook</title>
+      <chapter>
+        <title>Formatowanie tekstu</title>
+
+        <para>A paragraph</para>
+
+        <simpara>A paragraph that contains only text and inline markup, no block elements</simpara>
+
+        <formalpara>
+          <title>A paragraph with a title</title>
+          <para>formalpara</para>
+        </formalpara>
+
+        <para><emphasis role="bold">emphasis [bold]</emphasis></para>
+
+        <para><emphasis>emphasis</emphasis></para>
+
+        <para>orderedlist:</para>
+
+        <orderedlist>
+          <listitem>
+            <para>pozycja 1</para>
+          </listitem>
+
+          <listitem>
+            <para>pozycja 2</para>
+          </listitem>
+
+          <listitem>
+            <para>pozycja 3</para>
+          </listitem>
+        </orderedlist>
+
+        <para>itemizelist:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>pozycja a</para>
+          </listitem>
+
+          <listitem>
+            <para>pozycja b</para>
+          </listitem>
+
+          <listitem>
+            <para>pozycja c</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>variablelist:</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>zmienna</term>
+
+            <listitem>
+              <para>wartość</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </chapter>
+
+ <chapter>
+   <title>Odwołania do literatury</title>
+   <section>
+     <title>Trzech i mniej autorów</title>
+     <para>
+       Lutz, Asher 2002
+      <citation>
+        <xref linkend="1"/>
+      </citation>
+    </para>
+    <para>
+        Wojnar, Kurzydłowski, Szala 2002
+      <citation>
+        <xref linkend="2"/>
+      </citation>
+    </para>
+    <para>
+      Wright, Hoffman, Hoyt 1992
+      <citation>
+        <xref linkend="4"/>
+      </citation>
+    </para>
+    <para>
+      Statelect 2015
+      <citation>
+        <xref linkend="8"/>
+      </citation>
+    </para>
+   </section>
+
+   <section>
+     <title>Czterech i więcej autorów</title>
+     <para>
+       Yoshino, Miyasaka i inni 1984
+      <citation>
+        <xref linkend="3"/>
+     </citation>
+   </para>
+   </section>
+
+   <section>
+     <title>Ten sam autor, różne rodzaje dokumentu</title>
+     <para>
+       Citrix 2015a
+      <citation>
+        <xref linkend="5"/>
+      </citation>
+    </para>
+    <para>
+      Citrix 2015b
+      <citation>
+        <xref linkend="6"/>
+      </citation>
+    </para>
+    <para>
+      Citrix 2014
+      <citation>
+        <xref linkend="7"/>
+      </citation>
+    </para>
+   </section>
+
+ </chapter>
+      <chapter>
+        <title>Podział treści na sekcje</title>
+
+        <para></para>
+
+        <section>
+          <title>sekcja</title>
+
+          <para></para>
+
+          <section>
+            <title>sekcja</title>
+
+            <para></para>
+
+            <section>
+              <title>sekcja</title>
+
+              <para></para>
+
+              <section>
+                <title>sekcja</title>
+
+                <para></para>
+              </section>
+            </section>
+          </section>
+        </section>
+      </chapter>
+      <chapter>
+        <title>Formatowanie kodu źródłowego</title>
+
+<programlisting>
+  ofBall::ofBall(float _x, float _y, int _dim) {
+    x = _x;
+    y = _y;
+    dim = _dim;
+
+    speedX = ofRandom(-1, 1);
+    speedY = ofRandom(-1, 1);
+  }
+</programlisting>
+ </chapter>
+
+ <chapter>
+   <title>Inne rodzaje formatowania</title>
+
+        <para>Przykłady:</para>
+
+        <example>
+          <title>example</title>
+
+          <para>example</para>
+        </example>
+
+        <para>blockquote:</para>
+
+        <blockquote arch="arch" condition="condition"
+                    conformance="conformance" os="os" remap="remap"
+                    revision="revision" role="role" security="security"
+                    userlevel="userlevel" vendor="vendor"
+                    xreflabel="xreflabel">
+          <para>blockquote</para>
+        </blockquote>
+
+        <para>sidebar:</para>
+
+        <sidebar>
+          <para>sidebar</para>
+        </sidebar>
+
+        <para>highlights</para>
+
+        <highlights>
+          <para>highlights</para>
+        </highlights>
+
+        <para>remark</para>
+
+        <remark>remark</remark>
+
+        <para>qandaset:</para>
+
+        <qandaset>
+          <qandadiv>
+            <qandaentry>
+              <question>
+                <para>question</para>
+              </question>
+
+              <answer>
+                <para>answer</para>
+              </answer>
+            </qandaentry>
+          </qandadiv>
+        </qandaset>
+
+        <para>synopsis:</para>
+
+        <synopsis>synopsis</synopsis>
+      </chapter>
+
+      <chapter>
+        <title>Bloki tekstu</title>
+
+        <note>
+          <para>note</para>
+        </note>
+
+        <caution>
+          <para>caution</para>
+        </caution>
+
+        <warning>
+          <para>warning</para>
+        </warning>
+
+        <important>
+          <para>important</para>
+        </important>
+
+        <tip>
+          <para>tip</para>
+        </tip>
+
+        <remark>remark</remark>
+      </chapter>
+
+      <chapter>
+        <title>Tabele</title>
+
+        <para>informaltable:</para>
+
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>informaltable(head_row):</para>
+
+        <informaltable>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry align="center">A</entry>
+
+                <entry align="center">B</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>informaltable(head_column):</para>
+
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="center" />
+
+            <tbody>
+              <row>
+                <entry>A</entry>
+
+                <entry>a</entry>
+              </row>
+
+              <row>
+                <entry>B</entry>
+
+                <entry>b</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>informaltable(head_row_column):</para>
+
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="center" />
+
+            <thead>
+              <row>
+                <entry align="center">A</entry>
+
+                <entry align="center">B</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>table</para>
+
+        <table>
+          <title>table</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>table(head_row):</para>
+
+        <table>
+          <title>table(head_row):</title>
+
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry align="center">A</entry>
+
+                <entry align="center">B</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>table(head_column):</para>
+
+        <table>
+          <title>table(head_column):</title>
+
+          <tgroup cols="2">
+            <colspec align="center" />
+
+            <tbody>
+              <row>
+                <entry>A</entry>
+
+                <entry>a</entry>
+              </row>
+
+              <row>
+                <entry>B</entry>
+
+                <entry>b</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>table(head_row_column):</para>
+
+        <table>
+          <title>table(head_row_column):</title>
+
+          <tgroup cols="2">
+            <colspec align="center" />
+
+            <thead>
+              <row>
+                <entry align="center">A</entry>
+
+                <entry align="center">B</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>a</entry>
+
+                <entry>b</entry>
+              </row>
+
+              <row>
+                <entry>c</entry>
+
+                <entry>d</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </chapter>
+
+      <chapter>
+        <title>Grafika</title>
+
+        <para>inlinemadiaobject<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/android_image.png" />
+            </imageobject>
+          </inlinemediaobject></para>
+
+        <para>mediaobject:</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/android_image.png" />
+          </imageobject>
+        </mediaobject>
+
+        <para>screenshot:</para>
+
+        <screenshot>
+          <screeninfo>screeninfo</screeninfo>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/android_image.png" />
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+
+        <para>figure:</para>
+
+        <figure>
+          <title>figure</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/android_image.png" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>figure(screenshot):</para>
+
+        <figure>
+          <title>figure(screenshot)</title>
+
+          <screenshot>
+            <screeninfo>screeninfo</screeninfo>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/android_image.png" />
+              </imageobject>
+            </mediaobject>
+          </screenshot>
+        </figure>
+      </chapter>
+  <bibliography>
+    <title>Bibliografia</title>
+    <bibliodiv>
+      <title>Książki</title>
+      <biblioentry id="1">
+        <authorgroup>
+          <author>
+            <firstname>Mark</firstname>
+            <surname>Lutz</surname>
+          </author>
+          <author>
+            <firstname>David</firstname>
+            <surname>Asher</surname>
+          </author>
+        </authorgroup>
+        <title>Python. Wprowadzenie</title>
+        <publisher>
+          <publishername>Helion, Gliwice, 2002</publishername>
+        </publisher>
+        <pagenums>s.110-144</pagenums>
+      </biblioentry>
+
+      <biblioentry id="2">
+        <authorgroup>
+          <author>
+            <firstname>L.</firstname>
+            <surname>Wojnar</surname>
+          </author>
+          <author>
+            <firstname>K.J.</firstname>
+            <surname>Kurzydłowski</surname>
+          </author>
+          <author>
+            <firstname>J.</firstname>
+            <surname>Szala</surname>
+          </author>
+        </authorgroup>
+        <title>Praktyka analizy obrazu</title>
+        <publisher>
+          <publishername>Polskie Towarzystwo Stereologiczne, Kraków 2002</publishername>
+        </publisher>
+        <pagenums>s.88-91, 102-107, 131-136, 343-394</pagenums>
+      </biblioentry>
+    </bibliodiv>
+
+      <bibliodiv>
+        <title>Czasopisma</title>
+        <biblioentry id="3">
+        <authorgroup>
+          <author>
+            <firstname>M.</firstname>
+            <surname>Yoshino</surname>
+          </author>
+          <author>
+            <firstname>H.</firstname>
+            <surname>Sato</surname>
+          </author>
+          <author>
+            <firstname>S.</firstname>
+            <surname>Seta</surname>
+          </author>
+        </authorgroup>
+        <title>Classification system of frontal sinus patterns by radiography.
+          Its application to identification of unknown remains</title>
+        <publisher>
+          <publishername>Forensic Science International, 34 (1984)</publishername>
+        </publisher>
+        <pagenums>s.289-299</pagenums>
+      </biblioentry>
+
+      <biblioentry id="4">
+        <authorgroup>
+          <author>
+            <firstname>D.L.</firstname>
+            <surname>Wright</surname>
+          </author>
+          <author>
+            <firstname>H.T.</firstname>
+            <surname>Hoffman</surname>
+          </author>
+          <author>
+            <firstname>D.B.</firstname>
+            <surname>Hoyt</surname>
+          </author>
+        </authorgroup>
+        <title>
+          Frontal sinus fractures in the pediatric population
+        </title>
+        <publisher>
+          <publishername>Laryngoscope, 1992, 102(11)</publishername>
+        </publisher>
+        <pagenums>s.1215-1219</pagenums>
+      </biblioentry>
+    </bibliodiv>
+
+
+    <bibliodiv>
+      <title>Dokumenty</title>
+      <biblioentry id="5">
+        <author>
+          <firstname>Citrix (a)</firstname>
+        </author>
+      <title>Citrix XenServer 6.5 Quick Start Guide, Edition 1.0</title>
+      <publisher>
+        <publishername>Citrix Inc., 2015</publishername>
+      </publisher>
+    </biblioentry>
+
+    <biblioentry id="6">
+        <author>
+          <firstname>Citrix (b)</firstname>
+        </author>
+        <title>Citrix XenServer 6.5: Configuration Limits</title>
+        <publisher>
+          <publishername>Citrix Inc., 2014</publishername>
+        </publisher>
+    </biblioentry>
+
+    <biblioentry id="7">
+        <author>
+          <firstname>Citrix</firstname>
+        </author>
+        <title>XenServer 6.5: Configuration Limits - rev.0.1</title>
+        <publisher>
+          <publishername>Citrix Inc., 2014</publishername>
+        </publisher>
+    </biblioentry>
+  </bibliodiv>
+
+  <bibliodiv>
+    <title>Internet</title>
+    <biblioentry id="8">
+    <author>
+      <firstname>Statelect</firstname>
+    </author>
+    <title>Maximum likelihood - Algorithm</title>
+    <publisher>
+      <publishername>statelect.com, 2015</publishername>
+    </publisher>
+    <para>URL:
+    <ulink>
+      http://www.statlect.com/maximum_likelihood_algorithm.htm
+    </ulink>
+  </para>
+  </biblioentry>
+</bibliodiv>
+</bibliography>
+</part>
