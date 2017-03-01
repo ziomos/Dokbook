@@ -1,0 +1,3 @@
+cd C:\Users\Master\Desktop\f16projekt\docbook\repo\repository
+
+"C:\Users\Master\Desktop\f16projekt\docbook\generowanie\libxslt\bin\xsltproc" --xinclude --output dokumentacja-book.html "c:\Users\Master\Desktop\f16projekt\docbook\generowanie\docbook-xsl\html\docbook.xsl" dokumentacja-book.xml

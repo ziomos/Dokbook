@@ -1,209 +1,238 @@
 <part xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Założenia projektu</title>
-  <para>
-        W ramach projektu należało wykonać zegary silnika (Oil Pressure Indicator, Nozzle
-        Position Indicator, RPM Indicator, Fan turbine Inlet Temperature Indicator), kompas oraz
-        Fuel Quantity Indicator.
-   </para>
-  <chapter>
-    <title>Rozdział 1 Opis projektu</title>
+	<title>Założenia projektu</title>
+	<chapter>
+		<title>Opis projektu</title>
+		<para>
+			W ramach projektu należało wykonać zegary silnika (Oil Pressure Indicator, Nozzle
+			Position Indicator, RPM Indicator, Fan turbine Inlet Temperature Indicator), kompas oraz
+			Fuel Quantity Indicator.
+		</para>
+		<section>
+			<title>Opis wskaźników</title>
 
-    <section>
-      <title>1. Opis wskaźników</title>
+			<section>
+				<title>Oil Pressure Indicator</title>
 
-      <section>
-        <title>1.1 Oil Pressure Indicator</title>
-
-        <para>
+				<para>
           Wskaźnik ciśnienia oleju. Wskazuje ciśnienie oleju w silniku w funtach na cal
           kwadratowy (Pound per square inch - psi).
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.1 Oil Pressure Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/OPI.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Oil Pressure Indicator. Źródło: xflight.de</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OPI.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.2 Nozzle Position Indicator</title>
+			<section>
+				<title>Nozzle Position Indicator</title>
 
-        <para>
+				<para>
           Wskaźnik pozycji dyszy prezentuje procentowy poziom otwarcia dyszy wylotowej silnika. Gdy
           dysza jest otwarta wskazówka znajduje się na 100%, zaś gdy jest zamknięta, wskazówka
           zbliża się do 0%.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.2 Nozzle Position Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/NOZ_POS.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Nozzle Position Indicator</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/NOZ_POS.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.3 RPM Indicator</title>
+			<section>
+				<title>RPM Indicator</title>
 
-        <para>
+				<para>
           Wskaźnik obrotów silnika. Prezentuje ilość obrotów silnika na minutę w skali
           procentowej.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.3 Nozzle Position Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/rpm_01.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>RPM Indicator</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/rpm_01.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.4 Kompas</title>
+			<section>
+				<title>Kompas</title>
 
-        <para>
+				<para>
           Kompas jest dodatkowym elementem wskazującym położenie samolotu niezależnie od systemu
           żyroskopowego.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.4 Kompas</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/compass_01.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Kompas</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/compass_01.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.5 Fan Turbine Inlet Temperature Indicator</title>
+			<section>
+				<title>Fan Turbine Inlet Temperature Indicator</title>
 
-        <para>
+				<para>
           Wskaźnik temperatury turbiny wlotowej. Prezentuje temperaturę turbiny w setkach stopni
           Celsjusza.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.5 Fan Turbine Inlet Temperature Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/FTIT.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Fan Turbine Inlet Temperature Indicator</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/FTIT.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.6 Fuel Quantity Indicator</title>
+			<section>
+				<title>Fuel Quantity Indicator</title>
 
-        <para>
+				<para>
           Wskaźnik poziomu paliwa posiada dwie niezależne wskazówki dla każdego zbiornika i
           wskaźnik bębnowy podający całkowitą ilość paliwa.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.6 Fuel Quantity Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/FQI.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Fuel Quantity Indicator</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/FQI.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
+		</section>
+		<section>
+			<title>Stan poczatkowy</title>
 
-      <title>2. Stan poczatkowy</title>
-
-      <para>
+			<para>
         Poniżej został opisany stan w jakim były wskaźniki w czasie rozpoczęcia prac.
-      </para>
+			</para>
 
-      <section>
-        <title>2.1 Wskaźniki silnika</title>
+			<section>
+				<title>Wskaźniki silnika</title>
 
-        <para>
+				<para>
           Obudowa zegarów slinika została wykonana i zamontowana w symulatorze. Brak wskazówek i
           silników.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 2.1 Zegary silnika</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/silnik.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Zegary silnika</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/silnik.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>2.2 Kompas</title>
+			<section>
+				<title>Kompas</title>
 
-        <para>
+				<para>
           Wykonana została przednia część obudowy kompasu. Brak wskazówki w postaci linii.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 2.2 Kompas</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/kompas_nasz.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Kompas</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/kompas_przod.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>2.3 FQI</title>
+			<section>
+				<title>FQI</title>
 
-        <para>
+				<para>
           Projekty przedniej części obudowy zostały przekazane przez prowadzącego.
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 2.3 Kompas</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/FQI_projekt.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
-    </section>
-  </chapter>
-  <chapter>
-    <title>3. Plan </title>
+				<figure>
+					<title>Kompas</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/FQI_projekt.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
+		</section>
+	</chapter>
+	<chapter>
+		<title>Plan </title>
 
-    <section>
-      <title>3.1 Co jest do wykonania</title>
+		<section>
+			<title>Co jest do wykonania</title>
 
-      <para>
-        tekst
-      </para>
+			<para>
+				Zamontowanie wskazówek w zegarach slinkia.
+				Opracowanie i zamontowanie silników krokowych w zegarach kompasu.
+				Oznaczenie na przedniej części kompasu.
+				Wykonanie mechanizmu kompasu i montaż.
+				Wykonanie mechanizmu FQI i montaż.
+				Dziury na kompas i FQI w konsoli.
+				Opracowanie połączeń?
+				
+			</para>
+		</section>
+		<section>
+			<title>Co jest potrzebne do wykonania</title>
 
-      <section>
-        <title>3.2 Co jest potrzebne do wykonania</title>
+			<para>
+				Silniki krokowe o zbliżonych parametrach jak HXT900 Micro Servo
+				Serwa
+				Wskazówki
+				Mechanizm kompasu
+				Mechanizm FQI
+				
+			</para>
+		</section>
 
-        <para>
-          tekst
-        </para>
-      </section>
+		<section>
+			<title>Przykłady wykonania z internetu</title>
 
-      <section>
-        <title>3.3 Przykłady wykonania z internetu</title>
+			<para>
+			OIL  -  NOZ POS  -  RPM  -  FTIT 
+	  http://www.pdp-11.nl/viperpit/aircore/aircore.html
+	  
+	  FQI
+	  http://www.pdp-11.nl/viperpit/fqi/fuel-quantity-ind.html
+	  
+	  kompas, ale na podstawie części z f16
+	  http://www.pdp-11.nl/viperpit/compass/compass.html
+	  
+	  
+			</para>
+		</section>
+		
+		<section>
+			<title>Diagram wymagań</title>
 
-        <para>
-          tekst
-        </para>
-      </section>
-    </section>
-  </chapter>
+			<para>
+				TODO
+				
+			</para>
+		</section>
+	</chapter>
 </part>

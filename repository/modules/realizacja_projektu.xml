@@ -1,117 +1,118 @@
 <part xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Realizacja projektu</title>
-  <para>
-        
-   </para>
-  <chapter>
-    <title>Rozdział 1 Prace</title>
+	<title>Realizacja projektu</title>
+	
+	<chapter>
+		<title>Prace</title>
+		<para>
 
-    <section>
-      <title>1. Kompas</title>
-      <para>
-        Jakiś obrazek przeentujący działanie stożka i opis.  
-      </para>
-      <section>
-        <title>1.1 Projekt CAD stożka</title>
+		</para>
+		<section>
+			<title>Kompas</title>
+			<para>
+				Jakiś obrazek przeentujący działanie stożka i opis.  
+			</para>
+			<section>
+				<title>Projekt CAD stożka</title>
 
-        <para>
-          Zdjęcia
-        </para>
+				<para>
+					Zdjęcia
+				</para>
 
-        <figure>
-          <title>Rysunek 1.1 </title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/OPI.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title> </title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OPI.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.2 Wydruk 3D stożka</title>
+			<section>
+				<title>Wydruk 3D stożka</title>
 
-        <para>
-          Stożek został wydrukowany przez prowadzącego. Wymagane było wywiercenie dziury na rurkę, której obrót będzie powodował obracanie stożka.
-        </para>
+				<para>
+					Stożek został wydrukowany przez prowadzącego. Wymagane było wywiercenie dziury na rurkę, której obrót będzie powodował obracanie stożka.
+				</para>
 
-        <figure>
-          <title>Rysunek 1.2 Stożek</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/NOZ_POS.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Stożek</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/stozek.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.3 Oznaczenia kompasu</title>
+			<section>
+				<title>Oznaczenia kompasu</title>
 
-        <para>
-          Wykonany został projekt oznaczeń kompasu wymagający wydruku i przymocowania do stożka.
-        </para>
+				<para>
+					Wykonany został projekt oznaczeń kompasu wymagający wydruku i przymocowania do stożka.
+				</para>
 
-        <figure>
-          <title>Rysunek 1.3 Oznaczenia kompasu</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/kompas_oznaczenia.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Oznaczenia kompasu</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/kompas_oznaczenia.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.4 Obudowa kompasu</title>
+			<section>
+				<title>Obudowa kompasu</title>
 
-        <para>
+				<para>
 
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.4 Kompas</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/compass_01.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title>Kompas</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/compass_01.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.5 Silniczek krokowy i mechanizm obracający</title>
+			<section>
+				<title>Silniczek krokowy i mechanizm obracający</title>
 
-        <para>
+				<para>
 
-        </para>
+				</para>
 
-        <figure>
-          <title>Rysunek 1.5 </title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/FTIT.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
+				<figure>
+					<title></title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/FTIT.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
 
-      <section>
-        <title>1.6 Fuel Quantity Indicator</title>
+			<section>
+				<title>Fuel Quantity Indicator</title>
 
-        <para>
-          Wskaźnik poziomu paliwa posiada dwie niezależne wskazówki dla każdego zbiornika i
-          wskaźnik bębnowy podający całkowitą ilość paliwa.
-        </para>
+				<para>
+					  Wskaźnik poziomu paliwa posiada dwie niezależne wskazówki dla każdego zbiornika i
+					  wskaźnik bębnowy podający całkowitą ilość paliwa.
+				</para>
 
-        <figure>
-          <title>Rysunek 1.6 Fuel Quantity Indicator</title>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/FQI.jpg" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
-  </chapter>
+				<figure>
+					<title>Fuel Quantity Indicator</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/FQI.jpg" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+			</section>
+		</section>
+	</chapter>
 </part>
