@@ -230,9 +230,16 @@
 			<title>Diagram wymagań</title>
 
 			<para>
-				TODO
 				
 			</para>
+			<figure>
+					<title>Diagram wymagań</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/diagram.png" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 		</section>
 	</chapter>
 </part>
